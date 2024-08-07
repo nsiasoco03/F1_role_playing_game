@@ -6,28 +6,14 @@
     <title>F1 Juniors</title>
   </head>
   <body>
-    <div id="game">
-      <div id="stats">
-        <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
-        <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
-        <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
-      </div>
-      <div id="controls">
-        <button id="button1">Go to store</button>
-        <button id="button2">Go to cave</button>
-        <button id="button3">Fight dragon</button>
-      </div>
-      <div id="monsterStats">
-        <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
-        <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
-      </div>
-      <div id="text">
-        In an exciting new world of F1 juniors you are an aspiring F1 driver
-        wanting to be recruited by the top teams to race against the best of the best.
-        You as a junior must work their way up the ladder through races against fellow
-        junior drivers to show the top teams why you should be picked.
-      </div>
-    </div>
+    <div id="gameUI">
+      <h1 id="title">F1 Juniors</h1>
+      <p id="text">In an exciting new world of F1 juniors you are an aspiring F1 driver wanting to be recruited by the top teams to race against the best of the best.
+        You as a junior must work their way up the ladder through races against fellow junior drivers to show the top teams why you should be picked</p>
+      <button class="button" id="button1">Start Game</button>
+      <button class="button" style="display: none" id="button2">filler</button>
+      <button class="button" id="button3">filler</button>
+      <input required type="text" name="" id="playerName" placeholder="Ex: Max Verstappen"></input>
     <script src="./script.js"></script>
   </body>
 </html>
