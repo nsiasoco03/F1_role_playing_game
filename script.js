@@ -56,7 +56,12 @@ function details(){
   console.log("this works");
   button2.style.display = "block";
   button2.onclick = start;
+  button1.onclick = DriverCreation;
   text.innerHTML = "start your engines!"
+}
+
+function DriverCreation(){
+  console.log("This is where you create your driver")
 }
 
 function start(){
